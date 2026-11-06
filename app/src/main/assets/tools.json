@@ -1,0 +1,1110 @@
+{
+  "version": 1,
+  "updated": "2026-11-04",
+  "categories": [
+    {
+      "id": "charts",
+      "title": "چارت و تحلیل",
+      "icon": "chart"
+    },
+    {
+      "id": "calendar_news",
+      "title": "تقویم اقتصادی و اخبار",
+      "icon": "calendar"
+    },
+    {
+      "id": "crypto_data",
+      "title": "داده‌های کریپتو و آن‌چین",
+      "icon": "database"
+    },
+    {
+      "id": "forex_data",
+      "title": "داده‌های فارکس و احساسات بازار",
+      "icon": "gauge"
+    },
+    {
+      "id": "platforms",
+      "title": "پلتفرم‌های معاملاتی",
+      "icon": "terminal"
+    },
+    {
+      "id": "journal",
+      "title": "ژورنال و مدیریت ریسک",
+      "icon": "notebook"
+    },
+    {
+      "id": "education",
+      "title": "آموزش",
+      "icon": "book"
+    },
+    {
+      "id": "security",
+      "title": "امنیت",
+      "icon": "shield"
+    },
+    {
+      "id": "iran_market",
+      "title": "بازار ایران: نرخ ارز، طلا و تتر",
+      "icon": "toman"
+    },
+    {
+      "id": "macro",
+      "title": "اقتصاد کلان و بانک‌های مرکزی",
+      "icon": "bank"
+    }
+  ],
+  "tools": [
+    {
+      "id": "tradingview",
+      "name": "TradingView",
+      "desc": "چارت پیشرفته با اندیکاتور، هشدار قیمت و جامعه ایده‌های معامله‌گران",
+      "category": "charts",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.tradingview.com",
+      "tags": [
+        "چارت",
+        "تحلیل تکنیکال",
+        "هشدار"
+      ],
+      "sponsored": false,
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "id": "investing",
+      "name": "Investing.com",
+      "desc": "اخبار، چارت و داده بازارهای مختلف از ارز و کالا تا کریپتو",
+      "category": "charts",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.investing.com",
+      "tags": [
+        "چارت",
+        "اخبار",
+        "داده بازار"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "coin360",
+      "name": "Coin360",
+      "desc": "نقشه حرارتی بازار کریپتو برای دیدن سریع قوی‌ترین و ضعیف‌ترین ارزها",
+      "category": "charts",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://coin360.com",
+      "tags": [
+        "نقشه حرارتی",
+        "دید کلی بازار"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "finviz-forex",
+      "name": "Finviz Forex",
+      "desc": "نقشه عملکرد جفت‌ارزها و نمای کلی بازار فارکس",
+      "category": "charts",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://finviz.com/forex.ashx",
+      "tags": [
+        "نقشه حرارتی",
+        "جفت‌ارز"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "forexfactory-calendar",
+      "name": "Forex Factory Calendar",
+      "desc": "تقویم اقتصادی با رتبه‌بندی رنگی اثر خبرها، از پرکاربردترین‌ها بین معامله‌گران فارکس",
+      "category": "calendar_news",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.forexfactory.com/calendar",
+      "tags": [
+        "تقویم اقتصادی",
+        "اخبار مهم"
+      ],
+      "sponsored": false,
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "id": "investing-calendar",
+      "name": "Investing.com Economic Calendar",
+      "desc": "تقویم اقتصادی با پوشش گسترده کشورها و امکان هشدار",
+      "category": "calendar_news",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.investing.com/economic-calendar/",
+      "tags": [
+        "تقویم اقتصادی",
+        "هشدار"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "fxstreet-calendar",
+      "name": "FXStreet Economic Calendar",
+      "desc": "تقویم اقتصادی لحظه‌ای همراه با پیش‌نگری و تحلیل تحلیلگران",
+      "category": "calendar_news",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.fxstreet.com/economic-calendar",
+      "tags": [
+        "تقویم اقتصادی",
+        "تحلیل"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "tradingeconomics-calendar",
+      "name": "Trading Economics Calendar",
+      "desc": "داده‌ها و تقویم اقتصاد کلان کشورهای مختلف دنیا",
+      "category": "calendar_news",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://tradingeconomics.com/calendar",
+      "tags": [
+        "اقتصاد کلان",
+        "تقویم"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "mql5-calendar",
+      "name": "MQL5 Economic Calendar",
+      "desc": "تقویم اقتصادی جامعه MQL5 که با متاتریدر هم یکپارچه است",
+      "category": "calendar_news",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.mql5.com/en/economic-calendar",
+      "tags": [
+        "تقویم اقتصادی",
+        "متاتریدر"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "coinmarketcal",
+      "name": "CoinMarketCal",
+      "desc": "تقویم رویدادهای پروژه‌های کریپتو مثل لیست شدن، آپدیت و هاردفورک",
+      "category": "calendar_news",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://coinmarketcal.com",
+      "tags": [
+        "رویداد",
+        "تقویم کریپتو"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "cointelegraph",
+      "name": "Cointelegraph",
+      "desc": "اخبار و تحلیل بازار کریپتو",
+      "category": "calendar_news",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://cointelegraph.com",
+      "tags": [
+        "اخبار کریپتو"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "coindesk",
+      "name": "CoinDesk",
+      "desc": "اخبار، داده و تحلیل بازار کریپتو",
+      "category": "calendar_news",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.coindesk.com",
+      "tags": [
+        "اخبار کریپتو"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "coinmarketcap",
+      "name": "CoinMarketCap",
+      "desc": "رتبه‌بندی، قیمت و ارزش بازار هزاران ارز دیجیتال",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://coinmarketcap.com",
+      "tags": [
+        "قیمت",
+        "ارزش بازار"
+      ],
+      "sponsored": false,
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "desc": "داده قیمت، حجم و اطلاعات پروژه‌ها، جایگزین محبوب برای CoinMarketCap",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.coingecko.com",
+      "tags": [
+        "قیمت",
+        "ارزش بازار"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "coinglass",
+      "name": "CoinGlass",
+      "desc": "داده بازار مشتقات: نرخ فاندینگ، اوپن اینترست و نقشه لیکوئید شدن‌ها",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.coinglass.com",
+      "tags": [
+        "فاندینگ",
+        "لیکوئید",
+        "فیوچرز"
+      ],
+      "sponsored": false,
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "id": "coinalyze",
+      "name": "Coinalyze",
+      "desc": "آنالیز بازار فیوچرز کریپتو، اوپن اینترست و فاندینگ",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://coinalyze.net",
+      "tags": [
+        "فیوچرز",
+        "اوپن اینترست"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "fear-greed",
+      "name": "Crypto Fear & Greed Index",
+      "desc": "شاخص روزانه ترس و طمع بازار کریپتو",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "tags": [
+        "احساسات بازار",
+        "شاخص"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "defillama",
+      "name": "DefiLlama",
+      "desc": "داده‌های دیفای: TVL، درآمد پروتکل‌ها و بازده‌ها",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://defillama.com",
+      "tags": [
+        "دیفای",
+        "TVL"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "dune",
+      "name": "Dune",
+      "desc": "داشبوردهای آن‌چین ساخته‌شده توسط جامعه، با امکان کوئری SQL",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://dune.com",
+      "tags": [
+        "آن‌چین",
+        "داشبورد"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "glassnode",
+      "name": "Glassnode",
+      "desc": "شاخص‌های آن‌چین برای بیت‌کوین و اتریوم و تحلیل رفتار سرمایه‌گذاران",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://glassnode.com",
+      "tags": [
+        "آن‌چین",
+        "بیت‌کوین"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "cryptoquant",
+      "name": "CryptoQuant",
+      "desc": "جریان ورود و خروج سرمایه از صرافی‌ها و شاخص‌های آن‌چین",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://cryptoquant.com",
+      "tags": [
+        "آن‌چین",
+        "جریان صرافی"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "messari",
+      "name": "Messari",
+      "desc": "تحقیقات، پروفایل پروژه‌ها و داده بازار کریپتو",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://messari.io",
+      "tags": [
+        "تحقیق",
+        "فاندامنتال"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "nansen",
+      "name": "Nansen",
+      "desc": "ردیابی کیف پول‌های هوشمند و تحلیل جریان سرمایه روی بلاکچین",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "paid",
+      "access": "unknown",
+      "url": "https://www.nansen.ai",
+      "tags": [
+        "کیف پول",
+        "پول هوشمند"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "whale-alert",
+      "name": "Whale Alert",
+      "desc": "رصد تراکنش‌های بزرگ در شبکه‌های بلاکچین",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://whale-alert.io",
+      "tags": [
+        "نهنگ",
+        "تراکنش بزرگ"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "etherscan",
+      "name": "Etherscan",
+      "desc": "بلاک‌اکسپلورر اتریوم برای بررسی تراکنش‌ها، آدرس‌ها و قراردادها",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://etherscan.io",
+      "tags": [
+        "اکسپلورر",
+        "اتریوم"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "mempool-space",
+      "name": "mempool.space",
+      "desc": "اکسپلورر بیت‌کوین و نمایش وضعیت کارمزد و صف تراکنش‌ها",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://mempool.space",
+      "tags": [
+        "اکسپلورر",
+        "بیت‌کوین",
+        "کارمزد"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "babypips-tools",
+      "name": "Babypips Tools",
+      "desc": "ابزارهای رایگان: ماشین‌حساب سایز پوزیشن و ارزش پیپ، ساعت بازار، همبستگی ارزها و مقیاس ریسک",
+      "category": "forex_data",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.babypips.com/tools",
+      "tags": [
+        "ماشین‌حساب",
+        "همبستگی",
+        "ساعت بازار"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "myfxbook-outlook",
+      "name": "Myfxbook Community Outlook",
+      "desc": "درصد پوزیشن‌های خرید و فروش معامله‌گران خرد روی جفت‌ارزهای اصلی",
+      "category": "forex_data",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.myfxbook.com/community/outlook",
+      "tags": [
+        "احساسات بازار",
+        "پوزیشن"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "fxssi",
+      "name": "FXSSI",
+      "desc": "نسبت پوزیشن‌های خرید و فروش جمع‌آوری‌شده از چند بروکر",
+      "category": "forex_data",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://fxssi.com",
+      "tags": [
+        "احساسات بازار",
+        "پوزیشن"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "cftc-cot",
+      "name": "CFTC Commitments of Traders",
+      "desc": "گزارش رسمی هفتگی موقعیت‌های بزرگ‌ترین بازیگران بازار آتی (منبع COT)",
+      "category": "forex_data",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm",
+      "tags": [
+        "COT",
+        "گزارش هفتگی"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "metatrader5",
+      "name": "MetaTrader 5",
+      "desc": "پلتفرم معاملاتی محبوب فارکس و CFD، به‌همراه اکوسیستم اندیکاتور و ربات",
+      "category": "platforms",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.metatrader5.com",
+      "tags": [
+        "پلتفرم",
+        "متاتریدر"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "ctrader",
+      "name": "cTrader",
+      "desc": "پلتفرم معاملاتی جایگزین متاتریدر با رابط مدرن",
+      "category": "platforms",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.ctrader.com",
+      "tags": [
+        "پلتفرم"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "myfxbook",
+      "name": "Myfxbook",
+      "desc": "ردیابی خودکار نتایج معاملات، آمار عملکرد و ماشین‌حساب‌های معاملاتی",
+      "category": "journal",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.myfxbook.com",
+      "tags": [
+        "ژورنال",
+        "آمار عملکرد"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "edgewonk",
+      "name": "Edgewonk",
+      "desc": "ژورنال معاملاتی با تحلیل آماری و روانشناسی معامله",
+      "category": "journal",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "paid",
+      "access": "unknown",
+      "url": "https://www.edgewonk.com",
+      "tags": [
+        "ژورنال",
+        "تحلیل آماری"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "tradersync",
+      "name": "TraderSync",
+      "desc": "ژورنال معاملاتی با گزارش و تحلیل عملکرد",
+      "category": "journal",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "paid",
+      "access": "unknown",
+      "url": "https://tradersync.com",
+      "tags": [
+        "ژورنال",
+        "گزارش"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "babypips-school",
+      "name": "Babypips School of Pipsology",
+      "desc": "دوره آموزشی رایگان فارکس برای مبتدی‌ها تا سطح متوسط",
+      "category": "education",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://www.babypips.com/learn/forex",
+      "tags": [
+        "آموزش",
+        "مبتدی"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "investopedia",
+      "name": "Investopedia",
+      "desc": "فرهنگ لغت و مقاله‌های آموزشی مالی و معاملاتی",
+      "category": "education",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.investopedia.com",
+      "tags": [
+        "آموزش",
+        "واژه‌نامه"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "coinbureau-education",
+      "name": "Coin Bureau Education",
+      "desc": "راهنمای آموزشی و منابع تحقیق در بازار کریپتو",
+      "category": "education",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.coinbureau.com/education/",
+      "tags": [
+        "آموزش",
+        "کریپتو"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "revoke-cash",
+      "name": "Revoke.cash",
+      "desc": "بررسی و لغو مجوزهای دسترسی (Approval) قراردادهای هوشمند به کیف پول",
+      "category": "security",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://revoke.cash",
+      "tags": [
+        "امنیت کیف پول",
+        "مجوز"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "chainabuse",
+      "name": "Chainabuse",
+      "desc": "پایگاه گزارش آدرس‌ها و پروژه‌های کلاهبرداری در کریپتو",
+      "category": "security",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.chainabuse.com",
+      "tags": [
+        "کلاهبرداری",
+        "گزارش"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "tgju",
+      "name": "TGJU (شبکه اطلاع‌رسانی طلا، سکه و ارز)",
+      "desc": "قیمت لحظه‌ای طلا، سکه، دلار، یورو و سایر ارزها در بازار ایران",
+      "category": "iran_market",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.tgju.org",
+      "tags": [
+        "قیمت دلار",
+        "طلا",
+        "سکه"
+      ],
+      "sponsored": false,
+      "featured": true,
+      "lang": "fa"
+    },
+    {
+      "id": "bonbast",
+      "name": "Bonbast (بن‌بست)",
+      "desc": "نرخ بازار آزاد ریال که توسط خبرگزاری‌های بین‌المللی هم به‌عنوان منبع نرخ ارز ایران استفاده می‌شود",
+      "category": "iran_market",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://bonbast.com",
+      "tags": [
+        "نرخ آزاد",
+        "دلار",
+        "یورو"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "fa"
+    },
+    {
+      "id": "alanchand",
+      "name": "Alanchand (الان چند)",
+      "desc": "جمع‌آوری قیمت دلار، یورو، طلا، سکه و ارزهای دیجیتال از منابع و صرافی‌های مختلف همراه با آرشیو و نمودار",
+      "category": "iran_market",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://alanchand.com",
+      "tags": [
+        "قیمت دلار",
+        "طلا",
+        "تتر"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "fa"
+    },
+    {
+      "id": "arzdigital",
+      "name": "ارزدیجیتال",
+      "desc": "قیمت لحظه‌ای ارزهای دیجیتال به تومان، مبدل ارز، اخبار و تحلیل فارسی کریپتو",
+      "category": "iran_market",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://arzdigital.com",
+      "tags": [
+        "قیمت تتر",
+        "اخبار کریپتو",
+        "مبدل"
+      ],
+      "sponsored": false,
+      "featured": true,
+      "lang": "fa"
+    },
+    {
+      "id": "tetherland",
+      "name": "Tetherland (تترلند)",
+      "desc": "نمایش لحظه‌ای نرخ تتر به تومان و قیمت ارز و طلا",
+      "category": "iran_market",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://tetherland.com",
+      "tags": [
+        "قیمت تتر",
+        "نرخ ارز"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "fa"
+    },
+    {
+      "id": "donya-e-eqtesad",
+      "name": "دنیای اقتصاد",
+      "desc": "اخبار اقتصادی و بازارهای مالی ایران",
+      "category": "iran_market",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://donya-e-eqtesad.com/fa",
+      "tags": [
+        "اخبار اقتصادی",
+        "بازار ایران"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "fa"
+    },
+    {
+      "id": "fred",
+      "name": "FRED (فدرال رزرو سنت‌لوئیس)",
+      "desc": "پایگاه داده رایگان شاخص‌های اقتصادی آمریکا و جهان مثل نرخ بهره، تورم و اشتغال",
+      "category": "macro",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://fred.stlouisfed.org",
+      "tags": [
+        "داده اقتصادی",
+        "نرخ بهره",
+        "تورم"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "cme-fedwatch",
+      "name": "CME FedWatch Tool",
+      "desc": "احتمال تغییر نرخ بهره فدرال رزرو بر اساس قیمت‌گذاری بازار آتی",
+      "category": "macro",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+      "tags": [
+        "فدرال رزرو",
+        "نرخ بهره",
+        "FOMC"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "fomc-calendar",
+      "name": "تقویم جلسات FOMC",
+      "desc": "برنامه رسمی جلسات سیاست پولی فدرال رزرو",
+      "category": "macro",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "tags": [
+        "فدرال رزرو",
+        "تقویم",
+        "FOMC"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "dexscreener",
+      "name": "DEX Screener",
+      "desc": "چارت و رصد جفت‌های معاملاتی صرافی‌های غیرمتمرکز روی شبکه‌های مختلف",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://dexscreener.com",
+      "tags": [
+        "DEX",
+        "چارت",
+        "توکن جدید"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "santiment",
+      "name": "Santiment",
+      "desc": "داده آن‌چین و شبکه‌های اجتماعی برای سنجش احساسات بازار کریپتو",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://santiment.net",
+      "tags": [
+        "احساسات بازار",
+        "آن‌چین"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "cryptorank",
+      "name": "CryptoRank",
+      "desc": "داده سرمایه‌گذاران پروژه‌ها، رصد فروش اولیه توکن و رتبه‌بندی",
+      "category": "crypto_data",
+      "markets": [
+        "crypto"
+      ],
+      "pricing": "freemium",
+      "access": "unknown",
+      "url": "https://cryptorank.io",
+      "tags": [
+        "فاندامنتال",
+        "سرمایه‌گذاران"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "kitco",
+      "name": "Kitco",
+      "desc": "قیمت جهانی طلا و فلزات گرانبها و اخبار آن (مرتبط با معامله XAUUSD)",
+      "category": "forex_data",
+      "markets": [
+        "forex"
+      ],
+      "pricing": "free",
+      "access": "unknown",
+      "url": "https://www.kitco.com",
+      "tags": [
+        "طلا",
+        "XAUUSD",
+        "اخبار"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "id": "fxreplay",
+      "name": "FX Replay",
+      "desc": "بک‌تست دستی با بازپخش داده‌های تاریخی بازار و تمرین معامله",
+      "category": "journal",
+      "markets": [
+        "forex",
+        "crypto"
+      ],
+      "pricing": "paid",
+      "access": "unknown",
+      "url": "https://www.fxreplay.com",
+      "tags": [
+        "بک‌تست",
+        "تمرین"
+      ],
+      "sponsored": false,
+      "featured": false,
+      "lang": "en"
+    }
+  ]
+}
